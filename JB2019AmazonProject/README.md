@@ -76,6 +76,10 @@ This project is my personal work for the Java Amazon Project.
 ## Status
 Project is: _finished_
 
+## Before Start
+The project made in Mac.
+Please change web driver Chromedriver
+
 ## Inspiration
 Project inspired by Rony, based on John Bryce 2019 Course
 
