@@ -78,7 +78,9 @@ Project is: _finished_
 
 ## Before Start
 The project made in Mac.
-Please change web driver Chromedriver
+And Tested in Chromedriver
+Please change web driver by your Operating System. (etc Win, .exe)
+[Go to: WebDriverFactory.java](https://github.com/lbendror/AmazonAutomation/blob/master/JB2019AmazonProject/src/main/java/infra/web/WebDriverFactory.java)
 
 ## Inspiration
 Project inspired by Rony, based on John Bryce 2019 Course
