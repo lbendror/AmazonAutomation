@@ -22,7 +22,7 @@ public class MainConfig {
 	public static void initFromFile(String filePath) throws IOException {
 		
 		Properties prop = new Properties();
-		InputStream input = new FileInputStream("resources/MainConfig.properties");
+		InputStream input = new FileInputStream("src/main/java/resources/MainConfig.properties");
 
 		prop.load(input);
 

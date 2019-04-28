@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [JB2019AmazonProject.JB2019AmazonProject Automation]">
+  <test thread-count="5" name="JB2019AmazonProject.JB2019AmazonProject Automation(failed)">
+    <classes>
+      <class name="tests.AddNewAddressOnAmazon">
+        <methods>
+          <include name="afterTest"/>
+          <include name="_01_AddNewAddressOnAmazon"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- tests.AddNewAddressOnAmazon -->
+    </classes>
+  </test> <!-- JB2019AmazonProject.JB2019AmazonProject Automation(failed) -->
+</suite> <!-- Failed suite [JB2019AmazonProject.JB2019AmazonProject Automation] -->
