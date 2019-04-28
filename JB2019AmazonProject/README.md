@@ -78,8 +78,10 @@ Project is: _finished_
 
 ## Before Start
 The project made in Mac.
-And Tested in Chromedriver
-Please change web driver by your Operating System. (etc Win, .exe)
+Tested in Chromedriver.
+
+Please change web driver by your Operating System. (e.g. Win, .exe)
+
 [Go to: WebDriverFactory.java](https://github.com/lbendror/AmazonAutomation/blob/master/JB2019AmazonProject/src/main/java/infra/web/WebDriverFactory.java)
 
 ## Inspiration
