@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="JB2019AmazonProject.JB2019AmazonProject Automation">
+	<test name="JB2019AmazonProject.JB2019AmazonProject Automation">
+		<classes>
+
+	<!--_01_ success --><class name="tests.AddNewAddressOnAmazon" />
+	<!--_02_ success --><class name="tests.FooterPageOnAmazon" />
+	<!--_03_ success --><class name="tests.ForgotPassword" />
+	<!--_04_ success --><class name="tests.LanguageSettingsOnAmazon" />
+	<!--_05_ success --><class name="tests.loginToAmazon" />
+	<!--_06_ success --><class name="tests.registerationAmazon" />
+	<!--_07_ success --><class name="tests.ResultsSidebarOnAmazon" />
+	<!--_08_ success --><class name="tests.SearchAnItemAndAddQuantity" />
+	<!--_09_ success --><class name="tests.SearchOnAmazon" />
+	<!--_010_ success --><class name="tests.ShoppingCartCounter" />
+	<!--_011_ success --><class name="tests.SitePreferencesOnAmazon" />
+	<!--_012_ success --><class name="tests.AddToList" />
+	<!--_013_ success --><class name="tests.TellUsHowWeCanImproveFeedback" />
+
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
