@@ -4,7 +4,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
 import infra.config.MainConfig;
 import infra.pages.AmazonLandingPage;
 import infra.pages.AmazonSearchResultsPage;
@@ -36,7 +35,6 @@ public class SearchOnAmazon extends AbstractTest {
 			AmazonSearchResultsPage amazonSearchResultsPage = amazonLandingPage.clickOnGoButton();
 			report.endLevel();
 		}
-
 		// Step 3 - Check the length of the query to be added into the search box. The
 		// length of the query is 3968 characters long.
 		report.startLevel("Step 3 - Browse to amazon.com landing page.");
