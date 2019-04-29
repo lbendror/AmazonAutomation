@@ -48,9 +48,9 @@ public class SitePreferencesOnAmazon extends AbstractTest{
 		Thread.sleep(1000);
 		report.endLevel();
 
-		// Step 5 - Click on ‚ÄòYour Account link‚Äô to Return back.	
+		// Step 5 - Click on ‚Your Account link‚ to Return back.	
 		//You Return to your account page.
-		report.startLevel("Step 5 - Click on ‚ÄòYour Account link‚Äô to Return back.");
+		report.startLevel("Step 5 - Click on ‚Your Account link‚ to Return back.");
 		SitePreferencesOnAmazonPage.ReturnToYourAccountLink();
 		Thread.sleep(1000);
 		report.endLevel();
@@ -62,9 +62,9 @@ public class SitePreferencesOnAmazon extends AbstractTest{
 		Thread.sleep(1000);
 		report.endLevel();
 
-		// Step 7 -  Click on ‚ÄòYour Account link‚Äô to Return back.	
+		// Step 7 -  Click on ‚Your Account link‚ to Return back.	
 		//You Return to your account page.
-		report.startLevel("Step 7 -  Click on ‚ÄòYour Account link‚Äô to Return back.");
+		report.startLevel("Step 7 -  Click on ‚Your Account link‚ to Return back.");
 		SitePreferencesOnAmazonPage.ReturnFromPrimeLink();
 		Thread.sleep(1000);
 		report.endLevel();
@@ -76,9 +76,9 @@ public class SitePreferencesOnAmazon extends AbstractTest{
 		Thread.sleep(1000);
 		report.endLevel();
 
-		// Step 9 - Click on ‚Your Account link‚Äô to Return From Your Address Link.	
+		// Step 9 - Click on ‚Your Account link‚ to Return From Your Address Link.	
 		//You Return to your account page.
-		report.startLevel("Step 9 - Click on ‚ÄòYour Account link‚Äô to Return From Your Address Link.");
+		report.startLevel("Step 9 - Click on ‚Your Account link‚ to Return From Your Address Link.");
 		SitePreferencesOnAmazonPage.ReturnFromYourAddressLink();
 		Thread.sleep(1000);
 		report.endLevel();
@@ -90,9 +90,9 @@ public class SitePreferencesOnAmazon extends AbstractTest{
 		Thread.sleep(1000);
 		report.endLevel();
 
-		// Step 11 -  Click on ‚Your Account link‚Äô to Return From Payment options Link.	
+		// Step 11 -  Click on ‚Your Account link‚ to Return From Payment options Link.	
 		//You Return to your account page.
-		report.startLevel("Step 11 -  Click on ‚ÄòYour Account link‚Äô to Return back.");
+		report.startLevel("Step 11 -  Click on ‚Your Account link‚ to Return back.");
 		SitePreferencesOnAmazonPage.ReturnFromPaymentOptionsLink();
 		Thread.sleep(1000);
 		report.endLevel();
@@ -104,9 +104,9 @@ public class SitePreferencesOnAmazon extends AbstractTest{
 		Thread.sleep(1000);
 		report.endLevel();
 
-		// Step 13 - Click on ‚ÄòYour Account link‚Äô to Return From Gift cards link.	
+		// Step 13 - Click on ‚Your Account link‚ to Return From Gift cards link.	
 		//You Return to your account page.
-		report.startLevel("Step 13 - Click on ‚ÄòYour Account link‚Äô to Return From Gift cards link.");
+		report.startLevel("Step 13 - Click on ‚Your Account link‚ to Return From Gift cards link.");
 		SitePreferencesOnAmazonPage.ReturnFromGiftCardsLink();
 		Thread.sleep(1000);
 		report.endLevel();
