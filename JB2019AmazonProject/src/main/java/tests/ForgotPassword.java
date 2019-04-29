@@ -34,9 +34,9 @@ public class ForgotPassword extends AbstractTest{
 		amazonHelloSignInLink.amazonHelloSignIn();
 		report.endLevel();
 
-		// Step 3 - Click on ‚ÄúForgot Password‚Äù Link and find out forgot password page.	
+		// Step 3 - Click on “Forgot Password” Link and find out forgot password page.	
 		//Transferred to Password assistance, Forgot Password Page.
-		report.startLevel("Step 3 - Click on ‚ÄúForgot Password‚Äù Link and find out forgot password page.");
+		report.startLevel("Step 3 - Click on “Forgot Password” Link and find out forgot password page.");
 		ForgotPasswordPage.clickForgotPasswordLink();
 		report.endLevel();
 
@@ -52,7 +52,7 @@ public class ForgotPassword extends AbstractTest{
 		// Choose from the Options: The 1st option.
 		// 1) Set a new password
 		// 2) Sign in with a temporary code. Skip resetting your password.	
-		// Verify you are in Page: ‚ÄúHow would you like to sign in?".
+		// Verify you are in Page: “How would you like to sign in?".
 		report.startLevel("Step 5 - Check if you go to page: How would you like to sign in?.");
 		report.startLevel("Step 5 - 1. Set a new password");
 		report.startLevel("Step 5 - 2. Sign in with a temprary code. Skip resetting your password.");
@@ -90,7 +90,7 @@ public class ForgotPassword extends AbstractTest{
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		report.endLevel();
 
-		// Step 7 - Verify Interfaces tests (integration), verify you received an email from amazon. New email arrived. ‚ÄúAmazon password assistance‚Äù.
+		// Step 7 - Verify Interfaces tests (integration), verify you received an email from amazon. New email arrived. “Amazon password assistance”.
 		report.startLevel("Step 7 - Verify Interfaces tests (integration), verify you received an email from amazon.");
 		WebElement warningMessageTitle1 = driver.findElement(By.cssSelector("span[email='account-update@amazon.com']"));
 		String warningMessageTitleText1 = warningMessageTitle1.getText();
