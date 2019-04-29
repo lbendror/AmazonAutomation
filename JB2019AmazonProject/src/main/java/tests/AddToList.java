@@ -54,12 +54,12 @@ public class AddToList extends AbstractTest{
 		report.endLevel();
 
 		// Step 5 - Click on 'View your List' button.	//Transferred to Your List page.
-		report.startLevel("Step 5 - Click on ‚ÄúView your List‚Äù button.	//Transferred to Your List page.");
+		report.startLevel("Step 5 - Click on “View your List” button.	//Transferred to Your List page.");
 		report.startLevel("Step 5.1 - Clicked on 'View Your List Button' in Shopping List Page");
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		AddedToListPage.ClickOnViewYourListButton();
 		report.endLevel();
-		
+
 		// Step 6 - After Added 'Item to Your List' and Click on 'View Your List' button.
 		report.startLevel("Step 6 - After Added 'Item to Your List' and Click on 'View Your List' button.");
 		WebElement warningMessageTitle2 = driver.findElement(By.xpath("//div[@id='list-header']/div[@id='wl-list-info']//span[@id='profile-list-name']"));
