@@ -1,13 +1,14 @@
 package tests;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
 import infra.config.MainConfig;
 import infra.pages.AmazonLandingPage;
 import infra.pages.AmazonSearchResultsPage;
 import infra.pages.TellUsHowWeCanImproveFeedbackPage;
+
 public class TellUsHowWeCanImproveFeedback extends AbstractTest{
 
 	@Test
