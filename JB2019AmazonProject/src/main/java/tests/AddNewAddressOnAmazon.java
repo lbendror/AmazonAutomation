@@ -33,13 +33,13 @@ public class AddNewAddressOnAmazon extends AbstractTest {
 		AddNewAddressOnAmazonPage.ClickOnYourAccountLink();
 		report.endLevel();
 
-		// Step 3 - Click on Your addresses link Under ג€˜Ordering and shopping preferencesג€™ Subject.
+		// Step 3 - Click on Your addresses link Under ‘Ordering and shopping preferences’ Subject.
 		//You have placed in Your Addresses page.
 		report.startLevel("Step 3 - Click on Your Addresses Plus icon.");
 		AddNewAddressOnAmazonPage.ClickOnYourAddressLink();
 		Thread.sleep(500);
 		report.endLevel();
-		
+
 		// Step 4 - Verify you have a valid Username and password, and you logged-in to amazon site.	
 		// Appear Hello <name> Account & Lists.
 		report.startLevel("Step 4 - Verify you have a valid Username and password, and you logged-in to amazon site.");
@@ -49,23 +49,23 @@ public class AddNewAddressOnAmazon extends AbstractTest {
 		AddNewAddressOnAmazonPage.PASSWORD();
 		loginToAmazonPage.SignInSubmit();
 		report.endLevel();
-		
+
 		/*
 		 Sometimes after you login to amazon. Amazon request a Verification,
 		 So Please Clear Browsing Data. Choose Advanced and checked all, then click on 'Clear data' button.
 		 And Try again to run this test. 
-		*/
+		 */
 
 		// Step 6 - Click on Plus Your Addresses icon.	
-		//You have placed in ג€˜Add a new addressג€™ page.
-		report.startLevel("Step 6 - Click on + ג€˜Add Addressג€™ area.");
+		//You have placed in ‘Add a new address’ page.
+		report.startLevel("Step 6 - Click on + ‘Add Address’ area.");
 		AddNewAddressOnAmazonPage.ClickOnYourAddressPlusIcon();
 		Thread.sleep(500);
 		report.endLevel();
-		
-		// Step 7 - Choose ג€˜Israelג€™ from ג€˜Country/Regionג€™ Dropdown.	
-		//Israel ג€˜Country/Regionג€™ chosen.
-		report.startLevel("Step 7 - Choose ג€˜Israelג€™ from ג€˜Country/Regionג€™ Dropdown.");
+
+		// Step 7 - Choose ‘Israel’ from ‘Country/Region’ Dropdown.	
+		//Israel ‘Country/Region’ chosen.
+		report.startLevel("Step 7 - Choose ‘Israel’ from ‘Country/Region’ Dropdown.");
 		AddNewAddressOnAmazonPage.ChooseIsraelFromCountryRegionDropdown();
 		//Switches control to the new window
 		Set<String> eachwin = driver.getWindowHandles();
@@ -86,65 +86,65 @@ public class AddNewAddressOnAmazon extends AbstractTest {
 		{ driver.switchTo().window(win2); }
 		report.endLevel();
 
-		// Step 8 - Type ג€˜Full nameג€™.	
-		//Written ג€˜Full nameג€™ in field.
-		report.startLevel("Step 8 - Type ג€˜Full nameג€™.");
+		// Step 8 - Type ‘Full name’.	
+		//Written ‘Full name’ in field.
+		report.startLevel("Step 8 - Type ‘Full name’.");
 		AddNewAddressOnAmazonPage.TypeFullName();
 		Thread.sleep(1000);
 		report.endLevel();
 
-		// Step 9 - Type ג€˜Street addressג€™ in first field.	
-		//Written ג€˜Street addressג€™ in first field.
-		report.startLevel("Step 9 - Type ג€˜Street addressג€™ in first field.");
+		// Step 9 - Type ‘Street address’ in first field.	
+		//Written ‘Street address’ in first field.
+		report.startLevel("Step 9 - Type ‘Street address’ in first field.");
 		AddNewAddressOnAmazonPage.TypeStreetAddress();
 		Thread.sleep(500);
 		report.endLevel();
 
-		// Step 10 - Type ג€˜Apartment, suite, unit, building, floor, etc.ג€™ in second field	
-		//Written ג€˜Apartment, suite, unit, building, floor, etc.ג€™ in second Street address field.
-		report.startLevel("Step 10 - Type ג€˜Apartment, suite, unit, building, floor, etc.ג€™ in second field");
+		// Step 10 - Type ‘Apartment, suite, unit, building, floor, etc.’ in second field	
+		//Written ‘Apartment, suite, unit, building, floor, etc.’ in second Street address field.
+		report.startLevel("Step 10 - Type ‘Apartment, suite, unit, building, floor, etc.’ in second field");
 		AddNewAddressOnAmazonPage.TypeApartmentSuite();
 		Thread.sleep(500);
 		report.endLevel();
 
-		// Step 11 - Type ג€˜Cityג€™.
-		//Written ג€˜Cityג€™ in City field.
-		report.startLevel("Step 11 - Type ג€˜Cityג€™.");
+		// Step 11 - Type ‘City’.
+		//Written ‘City’ in City field.
+		report.startLevel("Step 11 - Type ‘City’.");
 		AddNewAddressOnAmazonPage.TypeCity();
 		Thread.sleep(500);
 		report.endLevel();
 
-		// Step 12 - Type ג€˜State / Province / Region.	
-		//Written ג€˜State / Province / Region in field.
-		report.startLevel("Step 12 - Type ג€˜State / Province / Region.");
+		// Step 12 - Type ‘State / Province / Region.	
+		//Written ‘State / Province / Region in field.
+		report.startLevel("Step 12 - Type ‘State / Province / Region.");
 		AddNewAddressOnAmazonPage.TypeStateProvinceRegion();
 		Thread.sleep(500);
 		report.endLevel();
 
-		// Step 13 - Type ג€˜Zip Codeג€™.	
-		//Written ג€˜Zip Codeג€™ in field.
-		report.startLevel("Step 13 - Type ג€˜Zip Codeג€™.");
+		// Step 13 - Type ‘Zip Code’.	
+		//Written ‘Zip Code’ in field.
+		report.startLevel("Step 13 - Type ‘Zip Code’.");
 		AddNewAddressOnAmazonPage.TypeZipCode();
 		Thread.sleep(500);
 		report.endLevel();
 
-		// Step 14 - Type ג€˜ID Numberג€™.
-		//Written ג€˜ID Numberג€™ in field.
-		report.startLevel("Step 14 - Type ג€˜ID Numberג€™.");
+		// Step 14 - Type ‘ID Number’.
+		//Written ‘ID Number’ in field.
+		report.startLevel("Step 14 - Type ‘ID Number’.");
 		AddNewAddressOnAmazonPage.TypeID_Number();
 		Thread.sleep(500);
 		report.endLevel();
 
-		// Step 15 - Type ג€˜Phone numberג€™.
-		//Written ג€˜Phone numberג€™ in field.
-		report.startLevel("Step 15 - Type ג€˜Phone numberג€™.");
+		// Step 15 - Type ‘Phone number’.
+		//Written ‘Phone number’ in field.
+		report.startLevel("Step 15 - Type ‘Phone number’.");
 		AddNewAddressOnAmazonPage.TypePhoneNumber();
 		Thread.sleep(500);
 		report.endLevel();
 
-		// Step 16 - Click On ג€˜Add Addressג€™ Button.
+		// Step 16 - Click On ‘Add Address’ Button.
 		//New Address added.
-		report.startLevel("Step 16 - Click on ג€˜Add addressג€™ button.");
+		report.startLevel("Step 16 - Click on ‘Add address’ button.");
 		AddNewAddressOnAmazonPage.ClickOnAddAddressButton();
 		Thread.sleep(500);
 
@@ -160,7 +160,7 @@ public class AddNewAddressOnAmazon extends AbstractTest {
 		// Step 17 - Choose to 'Skip for now' input.
 		/* Alert will appear:
 		ID required for customs clearance
-		Weג€™ll need your ID information after placing you order or it will be canceled. Delay in providing ID, may impact your delivery date. 
+		We’ll need your ID information after placing you order or it will be canceled. Delay in providing ID, may impact your delivery date. 
 		You can skip this step for now, but it may impact your delivery date.*/
 		report.startLevel("Step 17 - Choose to Skip for now input.");
 		AddNewAddressOnAmazonPage.SKIPFORNOWINPUT();
