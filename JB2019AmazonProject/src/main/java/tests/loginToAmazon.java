@@ -83,5 +83,4 @@ public class loginToAmazon extends AbstractTest{
 		Assert.assertEquals(warningMessageTitleText, "Hello, Student2\n" + "Account & Lists", "Step 6.2 - Verify you logged in. After login You See: 'Hello, Student2\n" + "Account & Lists'");
 		report.endLevel();
 	}
-
 }
