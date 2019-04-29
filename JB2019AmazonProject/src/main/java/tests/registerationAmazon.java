@@ -25,13 +25,13 @@ public class registerationAmazon extends AbstractTest{
 		browseToUrl("https://www.amazon.com/");
 		AmazonLandingPage amazonLandingPage = new AmazonLandingPage(driver);
 		report.endLevel();
-		
+
 		//Step 1.1 - Click on Hello Sign In Link.
 		report.startLevel("Step 1.1 - Click on Hello Sign In Link.");
 		AmazonLandingPage amazonHelloSignInLink = new AmazonLandingPage(driver);
 		amazonHelloSignInLink.amazonHelloSignIn();
 		report.endLevel();
-		
+
 		// Step 1.2 - Click on 'Create your Amazon Submit Button' In Sign-In Page.
 		report.startLevel("Step 1.2 - Click on 'Create your Amazon Submit Button' In Sign-In Page.");
 		//registerationPage createYourAccountSubmitButton = new registerationPage(driver);
@@ -115,7 +115,7 @@ public class registerationAmazon extends AbstractTest{
 		report.endLevel();
 
 		// Step 10 - Check the Email text field that has Email address without @ symbol.	
-		//Get an error message: ‚ÄúEnter a valid email address‚Äù
+		//Get an error message: “Enter a valid email address”
 		report.startLevel("Step 10 - Check the Email text field that has Email address without @ symbol.");
 		registerationPage.Clear_ap_email();
 		report.startLevel("Step 10.1 - SendKeys 'lbendror_hotmail.com'");
@@ -125,7 +125,7 @@ public class registerationAmazon extends AbstractTest{
 		report.endLevel();
 
 		// Step 11 - Check the Email text field as 'name@gmail'.	
-		//Get an error message: ‚ÄúEnter a valid email address‚Äù.
+		//Get an error message: “Enter a valid email address”.
 		report.startLevel("Step 14 - Check the Email text field as 'name@gmail'.");
 		registerationPage.Clear_ap_email();
 		report.startLevel("Step 14 - SendKeys 'name@gmail'");
@@ -147,7 +147,7 @@ public class registerationAmazon extends AbstractTest{
 		report.startLevel("Testing Password Field.");
 		report.endLevel();
 
-		// Step 13 - Verify if you can keep Two password Fields blank and submit the form. //Get an error message: ‚ÄúEnter your password‚Äù.
+		// Step 13 - Verify if you can keep Two password Fields blank and submit the form. //Get an error message: “Enter your password”.
 		report.startLevel("Step 13 - Verify if you can keep Two password Fields blank and submit the form.");
 		registerationPage.Clear_ap_password();
 		registerationPage.Clear_ap_password_check();
@@ -180,7 +180,7 @@ public class registerationAmazon extends AbstractTest{
 		driver.manage().timeouts().implicitlyWait(7, TimeUnit.SECONDS);
 		registerationPage.ContinueButton();
 		report.endLevel();
-		
+
 		// Step 16 - After finished to 'Create account', Verify you have got an 'Verify email address', we've sent a code.
 		report.startLevel("Step 16 - After finished to 'Create account', Verify you have got an 'Verify email address', we've sent a code.");
 		WebElement warningMessageTitle2 = driver.findElement(By.cssSelector(".a-spacing-small:nth-of-type(1) .a-spacing-small"));
