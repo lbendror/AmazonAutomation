@@ -2,7 +2,6 @@ package tests;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
 import infra.config.MainConfig;
 import infra.pages.AddedToCartPage;
 import infra.pages.AmazonLandingPage;
