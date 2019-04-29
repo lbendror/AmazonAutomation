@@ -43,9 +43,9 @@ public class SearchAnItemAndAddQuantity extends AbstractTest {
 		AmazonProductPage amazonProductPage = amazonSearchResultsPage.clickOnSearchResultTitleByIndex(1);
 		report.endLevel();
 
-		// Step 4 - Choose Qty '10' Dropdown, Verify appear Green color ג€˜In Stockג€™ And
-		// The Qty field update to ג€˜10ג€™.
-		report.startLevel("Step 4 - Choose Qty '10' Dropdown, Verify appear Green color ג€˜In Stockג€™ And The Qty field update to ג€˜10ג€™.");
+		// Step 4 - Choose Qty '10' Dropdown, Verify appear Green color ‘In Stock’ And
+		// The Qty field update to ‘10’.
+		report.startLevel("Step 4 - Choose Qty '10' Dropdown, Verify appear Green color ‘In Stock’ And The Qty field update to ‘10’.");
 		SearchAnItemAndAddQuantityPage.ChooseQty10Dropdown();
 		report.endLevel();
 
@@ -74,14 +74,14 @@ public class SearchAnItemAndAddQuantity extends AbstractTest {
 		}
 		report.endLevel();
 
-		// Step 5 - Click on ג€˜Add to Cartג€™ Button. The Item ג€˜Added to Cartג€™.
-		report.startLevel("Step 5 - Click on ג€˜Add to Cartג€™ Button. The Item ג€˜Added to Cartג€™.");
+		// Step 5 - Click on ‘Add to Cart’ Button. The Item ‘Added to Cart’.
+		report.startLevel("Step 5 - Click on ‘Add to Cart’ Button. The Item ‘Added to Cart’.");
 		AddedToCartPage addedToCartPage = amazonProductPage.clickAddToCartButton();
 		report.endLevel();
 
-		// Step 6 - Verify The name of the Button is: ג€˜Proceed to checkout (10 items)ג€™.
-		// // The name of the Button is: ג€˜Proceed to checkout (10 items)ג€™.
-		report.startLevel("Step 6 - Verify The name of the Button is: ג€˜Proceed to checkout (10 items)ג€™.");
+		// Step 6 - Verify The name of the Button is: ‘Proceed to checkout (10 items)’.
+		// // The name of the Button is: ‘Proceed to checkout (10 items)’.
+		report.startLevel("Step 6 - Verify The name of the Button is: ‘Proceed to checkout (10 items)’.");
 		WebElement warningMessageTitle = SearchAnItemAndAddQuantityPage.VerifyTheNameOfTheButton_ProceedToCheckout();
 		String warningMessageTitleText = warningMessageTitle.getText();
 		report.startLevel("Step 6.1 - You just add 10 items Button shown text: '" + warningMessageTitleText + "'.");
@@ -89,8 +89,8 @@ public class SearchAnItemAndAddQuantity extends AbstractTest {
 				"Step 6.2 - You just add 10 items Button shown text: 'Proceed to checkout (10 items)'.");
 		report.endLevel();
 
-		// Step 7 - Click on ג€˜Cartג€™ button. The item in Shopping Cart with Quantity of 10.
-		report.startLevel("Step 7 - Click on ג€˜Cartג€™ button.	The item in Shopping Cart with Quantity of 10.");
+		// Step 7 - Click on ‘Cart’ button. The item in Shopping Cart with Quantity of 10.
+		report.startLevel("Step 7 - Click on ‘Cart’ button.	The item in Shopping Cart with Quantity of 10.");
 		SearchAnItemAndAddQuantityPage.ClickOnCartButton();
 		report.endLevel();
 
@@ -101,6 +101,6 @@ public class SearchAnItemAndAddQuantity extends AbstractTest {
 		report.endLevel();
 	}
 	private String generateRandomSearchTerm() {
-		return "Franklin Sports Grip-Rite Junior Football ג€” Fun Youth-Size Football for Kidsג€™ Football Games ג€” Synthetic Leather Football for Kids";
+		return "Franklin Sports Grip-Rite Junior Football — Fun Youth-Size Football for Kids’ Football Games — Synthetic Leather Football for Kids";
 	}
 }
